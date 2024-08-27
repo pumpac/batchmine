@@ -1,5 +1,5 @@
-# PACC Miner
-Just For $PPAC Stakers.
+# PACC Batch Miner
+## Just For $PPAC Stakers.
 
 ## Overview
 This repository provides a minimal setup to begin mining $PACC tokens.
