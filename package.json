@@ -1,0 +1,9 @@
+{
+  "name": "PumPac-miner",
+  "version": "1.0.0",
+  "main": "mine.js",
+  "license": "MIT",
+  "dependencies": {
+    "ethers": "^6.13.2"
+  }
+}
