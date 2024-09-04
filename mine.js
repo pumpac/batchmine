@@ -2,7 +2,7 @@ const config = require('./config.js');
 const ethers = require('ethers');
 const provider = new ethers.JsonRpcProvider(config.RPC);
 const miner = new ethers.Wallet(config.PRIVATE_KEY, provider);
-const PUMPAC_ADDRESS = '0xf97e8686b7be52C020c156E22C15eca93d978c21';
+const PUMPAC_ADDRESS = '0xaF03B57506995e187A5a172d50D9bEC70969DD88';
 const PUMPAC_ABI = require('./abi.json')
 const pumpac = new ethers.Contract(PUMPAC_ADDRESS, PUMPAC_ABI, miner);
 
